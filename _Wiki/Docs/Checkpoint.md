@@ -140,11 +140,7 @@ git merge fase-2/conflito-b
 
 **7. Resolver o conflito:** abrir `README.md`, vai aparecer algo como:
 ```
-<<<<<<< HEAD
-- [x] Fase 2 — Git/GitHub aprofundado (commits, branch, PR, merge)
-=======
 - [x] Fase 2 — Git/GitHub aprofundado (concluída em 27/08/2026)
->>>>>>> fase-2/conflito-b
 ```
 Editar manualmente juntando as duas versões e apagar as 3 linhas de marcador
 (`<<<<<<<`, `=======`, `>>>>>>>`), por exemplo:
